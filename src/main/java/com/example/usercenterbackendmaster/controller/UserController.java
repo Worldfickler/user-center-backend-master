@@ -28,6 +28,7 @@ import static com.example.usercenterbackendmaster.constant.UserConstant.USER_LOG
 
 @RestController
 @RequestMapping("/user")
+//@CrossOrigin(origins = {"https://user-center.icu"}, allowCredentials = "true")
 public class UserController {
 
     @Resource
